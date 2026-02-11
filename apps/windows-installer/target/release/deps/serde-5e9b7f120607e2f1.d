@@ -1,0 +1,14 @@
+C:\Program1\Openclaw\openclaw\apps\windows-installer\target\release\deps\serde-5e9b7f120607e2f1.d: C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Program1\Openclaw\openclaw\apps\windows-installer\target\release\build\serde-c2c98b37bab3cf0c\out/private.rs
+
+C:\Program1\Openclaw\openclaw\apps\windows-installer\target\release\deps\libserde-5e9b7f120607e2f1.rlib: C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Program1\Openclaw\openclaw\apps\windows-installer\target\release\build\serde-c2c98b37bab3cf0c\out/private.rs
+
+C:\Program1\Openclaw\openclaw\apps\windows-installer\target\release\deps\libserde-5e9b7f120607e2f1.rmeta: C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Program1\Openclaw\openclaw\apps\windows-installer\target\release\build\serde-c2c98b37bab3cf0c\out/private.rs
+
+C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+C:\Program1\Openclaw\openclaw\apps\windows-installer\target\release\build\serde-c2c98b37bab3cf0c\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Program1\\Openclaw\\openclaw\\apps\\windows-installer\\target\\release\\build\\serde-c2c98b37bab3cf0c\\out

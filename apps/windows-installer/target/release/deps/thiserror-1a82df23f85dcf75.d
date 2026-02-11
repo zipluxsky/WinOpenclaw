@@ -1,0 +1,14 @@
+C:\Program1\Openclaw\openclaw\apps\windows-installer\target\release\deps\thiserror-1a82df23f85dcf75.d: C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\lib.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\aserror.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\display.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\var.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\private.rs C:\Program1\Openclaw\openclaw\apps\windows-installer\target\release\build\thiserror-b896247d0d405f41\out/private.rs
+
+C:\Program1\Openclaw\openclaw\apps\windows-installer\target\release\deps\libthiserror-1a82df23f85dcf75.rlib: C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\lib.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\aserror.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\display.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\var.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\private.rs C:\Program1\Openclaw\openclaw\apps\windows-installer\target\release\build\thiserror-b896247d0d405f41\out/private.rs
+
+C:\Program1\Openclaw\openclaw\apps\windows-installer\target\release\deps\libthiserror-1a82df23f85dcf75.rmeta: C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\lib.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\aserror.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\display.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\var.rs C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\private.rs C:\Program1\Openclaw\openclaw\apps\windows-installer\target\release\build\thiserror-b896247d0d405f41\out/private.rs
+
+C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\lib.rs:
+C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\aserror.rs:
+C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\display.rs:
+C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\var.rs:
+C:\Users\Ziplux\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\private.rs:
+C:\Program1\Openclaw\openclaw\apps\windows-installer\target\release\build\thiserror-b896247d0d405f41\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Program1\\Openclaw\\openclaw\\apps\\windows-installer\\target\\release\\build\\thiserror-b896247d0d405f41\\out

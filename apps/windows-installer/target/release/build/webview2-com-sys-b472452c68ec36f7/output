@@ -1,0 +1,2 @@
+cargo:rustc-link-search=native=C:\Program1\Openclaw\openclaw\apps\windows-installer\target\release\build\webview2-com-sys-b472452c68ec36f7\out\x64
+cargo:rustc-link-lib=advapi32

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OpenClaw Setup</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="header">
+      <h1>OpenClaw Setup</h1>
+      <p class="subtitle">Native Windows installer and configuration</p>
+    </header>
+
+    <nav class="tabs">
+      <button type="button" class="tab active" data-tab="install">Install</button>
+      <button type="button" class="tab" data-tab="configure">Configure</button>
+      <button type="button" class="tab" data-tab="security">Security</button>
+    </nav>
+
+    <main class="content">
+      <section id="panel-install" class="panel active">
+        <h2>Install OpenClaw</h2>
+        <p>Ensure Node.js 22+ and the OpenClaw CLI are installed on your system.</p>
+        <div class="status-box" id="install-status">
+          <p id="node-status">Checking Node.js…</p>
+          <p id="openclaw-status" class="muted">—</p>
+          <p id="path-status" class="muted">—</p>
+        </div>
+        <div class="actions">
+          <button type="button" id="btn-check-node">Check / Install Node.js</button>
+          <button type="button" id="btn-install-openclaw">Install OpenClaw CLI</button>
+        </div>
+      </section>
+
+      <section id="panel-configure" class="panel">
+        <h2>Configure OpenClaw</h2>
+        <p>Edit key settings. Config file: <code id="config-path">—</code></p>
+        <form id="config-form" class="form">
+          <div class="field">
+            <label for="gateway-mode">Gateway mode</label>
+            <select id="gateway-mode" name="gateway.mode">
+              <option value="local">Local</option>
+              <option value="remote">Remote</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="gateway-port">Gateway port</label>
+            <input type="number" id="gateway-port" name="gateway.port" value="18789" min="1" max="65535" />
+          </div>
+          <div class="field">
+            <label for="web-api-key">Brave Search API key (optional)</label>
+            <input type="password" id="web-api-key" name="tools.web.search.apiKey" placeholder="Leave blank to skip" autocomplete="off" />
+          </div>
+          <div class="actions">
+            <button type="button" id="btn-load-config">Load current config</button>
+            <button type="submit">Save</button>
+          </div>
+        </form>
+        <p class="muted small"><a href="https://docs.openclaw.ai/gateway/configuration" target="_blank" rel="noopener">Configuration docs</a></p>
+      </section>
+
+      <section id="panel-security" class="panel">
+        <h2>Security check</h2>
+        <p>See how secure your OpenClaw setup is (score 1–100).</p>
+        <div class="security-score-box" id="security-score-box">
+          <div class="score-circle" id="score-circle">
+            <span id="score-value">—</span>
+          </div>
+          <p id="score-label" class="muted">Run check to see score</p>
+          <p id="score-details" class="small muted"></p>
+        </div>
+        <div class="actions">
+          <button type="button" id="btn-security-check">Run security check</button>
+          <button type="button" id="btn-security-deep">Full check (deep)</button>
+          <button type="button" id="btn-security-fix">Run fix</button>
+        </div>
+        <div id="security-findings" class="findings-list"></div>
+      </section>
+    </main>
+
+    <footer class="footer muted small">
+      <a href="https://docs.openclaw.ai/platforms/windows" target="_blank" rel="noopener">Windows docs</a>
+    </footer>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

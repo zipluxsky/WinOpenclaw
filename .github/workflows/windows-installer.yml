@@ -1,0 +1,63 @@
+# Build the native Windows GUI installer (Rust/Tauri) for OpenClaw.
+# Produces the .exe under apps/windows-installer/src-tauri/target/release/.
+name: Windows Installer
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "apps/windows-installer/**"
+  pull_request:
+    paths:
+      - "apps/windows-installer/**"
+  workflow_dispatch:
+
+concurrency:
+  group: windows-installer-${{ github.event.pull_request.number || github.sha }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: x86_64-pc-windows-msvc
+
+      - name: Cache cargo
+        uses: actions/cache@v4
+        with:
+          path: |
+            apps/windows-installer/src-tauri/target
+            ~/.cargo/registry
+            ~/.cargo/git
+          key: win-installer-${{ runner.os }}-${{ hashFiles('apps/windows-installer/**/Cargo.lock', 'apps/windows-installer/**/Cargo.toml') }}
+          restore-keys: |
+            win-installer-${{ runner.os }}-
+
+      - name: Install cargo-audit
+        run: cargo install cargo-audit
+
+      - name: Audit Rust dependencies
+        run: cargo audit
+        working-directory: apps/windows-installer
+
+      - name: Install Tauri CLI
+        run: cargo install tauri-cli --version "^2.0.0"
+        working-directory: apps/windows-installer
+
+      - name: Build
+        run: cargo tauri build
+        working-directory: apps/windows-installer
+        env:
+          TAURI_SKIP_DEVTOOLS: "true"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: openclaw-windows-installer
+          path: apps/windows-installer/src-tauri/target/release/openclaw_windows_installer.exe
